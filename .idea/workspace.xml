@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="830ba7be-8133-44cf-9e1e-d7795724869d" name="Default Changelist" comment="" />
+    <list default="true" id="830ba7be-8133-44cf-9e1e-d7795724869d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,9 +18,17 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="/usr/lib/go" />
+  <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1kk0us1NSuIJ8EXbdXgoKqqcfnC" />
   <component name="ProjectViewState">
@@ -27,6 +39,9 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
@@ -40,9 +55,26 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="701" y="269" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606229915991">
-      <screen x="0" y="0" width="1920" height="1048" />
+    <state x="1073" y="359" key="#GOPATH" timestamp="1606254619087">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1073" y="359" key="#GOPATH/0.0.2560.1400/3840.0.1920.1080@0.0.2560.1400" timestamp="1606254619087" />
+    <state x="1073" y="632" key="#GOROOT" timestamp="1606254608748">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1073" y="632" key="#GOROOT/0.0.2560.1400/3840.0.1920.1080@0.0.2560.1400" timestamp="1606254608748" />
+    <state x="935" y="359" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606254888802">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="701" y="269" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1048@0.0.1920.1048" timestamp="1606229915991" />
+    <state x="935" y="359" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/3840.0.1920.1080@0.0.2560.1400" timestamp="1606254888802" />
+    <state x="1061" y="455" key="FileChooserDialogImpl" timestamp="1606254617793">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1061" y="455" key="FileChooserDialogImpl/0.0.2560.1400/3840.0.1920.1080@0.0.2560.1400" timestamp="1606254617793" />
+    <state x="983" y="367" width="672" height="678" key="search.everywhere.popup" timestamp="1606271019020">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="983" y="367" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/3840.0.1920.1080@0.0.2560.1400" timestamp="1606271019020" />
   </component>
 </project>
