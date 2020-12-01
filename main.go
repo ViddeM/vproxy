@@ -6,7 +6,10 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	"net/http/httputil"
+	"net/url"
 	"os"
+	"strings"
 )
 
 // Get environment variable or default
@@ -34,11 +37,6 @@ func logSetup() {
 
 type requestPayloadStruct struct {
 	ProxyCondition string `json:"proxy_condition"`
-}
-
-// Given a request send it to the appropriate url
-func handleRequestAndRedirect(res http.ResponseWriter, req *http.Request) {
-	// TODO: Implement this.
 }
 
 func main() {
@@ -81,5 +79,29 @@ func parseRequestBody(request *http.Request) requestPayloadStruct {
 	return requestPayload
 }
 
+func serveReverseProxy(target string, res http.ResponseWriter, req *http.Request) {
+	// Parse the url
+	url, _ := url.Parse(target)
+
+	proxy := httputil.NewSingleHostReverseProxy(url)
+
+	req.URL.Host = url.Host
+	req.URL.Scheme = url.Scheme
+	req.Header.Set("X-Forwarded-Host", req.Header.Get("Host"))
+	req.Host = url.Host
+
+	proxy.ServeHTTP(res, req)
+}
+
 // Given a request send it to the appropriate url
-func handleRequestAndRedirect
+func handleRequestAndRedirect(res http.ResponseWriter, req *http.Request) {
+	requestPayload := parseRequestBody(req)
+	url := getProxyAddress()
+	logRequestPayload(requestPayload, url)
+
+	serveReverseProxy(url, res, req)
+}
+
+func logRequestPayload(requestPayload requestPayloadStruct, proxyUrl string) {
+	log.Printf("proxy_condition: %s, proxy_url: %s\n", requestPayload.ProxyCondition, proxyUrl)
+}
