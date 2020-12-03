@@ -1,0 +1,55 @@
+2020-12-03 20:19:12 :: proxy_condition: , proxy_url: http://localhost:3000
+2020-12-03 20:19:12 :: No ip in header, using remoteAddr
+2020-12-03 20:19:12 :: IP = '['
+                       	IP WITH PORT = '[::1]:46690'
+2020-12-03 20:19:12 :: lookup address http://ip-api.com/json/[
+2020-12-03 20:19:12 :: IP metadata: 
+                       	{"status":"fail","message":"invalid query","query":"["}
+2020-12-03 20:19:12 :: Request data:
+                       	User Agent: 'Mozilla/5.0 (X11; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0'
+                       	IP: '[::1]:46690'
+                       	Request URL: 'http://localhost:3000/'
+2020-12-03 20:19:12 :: proxy_condition: , proxy_url: http://localhost:3000
+2020-12-03 20:19:12 :: proxy_condition: , proxy_url: http://localhost:3000
+2020-12-03 20:19:12 :: No ip in header, using remoteAddr
+2020-12-03 20:19:12 :: No ip in header, using remoteAddr
+2020-12-03 20:19:12 :: IP = '['
+                       	IP WITH PORT = '[::1]:46688'
+2020-12-03 20:19:12 :: IP = '['
+                       	IP WITH PORT = '[::1]:46686'
+2020-12-03 20:19:12 :: lookup address http://ip-api.com/json/[
+2020-12-03 20:19:12 :: lookup address http://ip-api.com/json/[
+2020-12-03 20:19:12 :: proxy_condition: , proxy_url: http://localhost:3000
+2020-12-03 20:19:12 :: No ip in header, using remoteAddr
+2020-12-03 20:19:12 :: IP = '['
+                       	IP WITH PORT = '[::1]:46690'
+2020-12-03 20:19:12 :: lookup address http://ip-api.com/json/[
+2020-12-03 20:19:12 :: IP metadata: 
+                       	{"status":"fail","message":"invalid query","query":"["}
+2020-12-03 20:19:12 :: IP metadata: 
+                       	{"status":"fail","message":"invalid query","query":"["}
+2020-12-03 20:19:12 :: Request data:
+                       	User Agent: 'Mozilla/5.0 (X11; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0'
+                       	IP: '[::1]:46686'
+                       	Request URL: 'http://localhost:3000/static/js/bundle.js'
+2020-12-03 20:19:12 :: Request data:
+                       	User Agent: 'Mozilla/5.0 (X11; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0'
+                       	IP: '[::1]:46688'
+                       	Request URL: 'http://localhost:3000/static/js/0.chunk.js'
+2020-12-03 20:19:12 :: IP metadata: 
+                       	{"status":"fail","message":"invalid query","query":"["}
+2020-12-03 20:19:12 :: Request data:
+                       	User Agent: 'Mozilla/5.0 (X11; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0'
+                       	IP: '[::1]:46690'
+                       	Request URL: 'http://localhost:3000/static/js/main.chunk.js'
+2020-12-03 20:19:12 :: proxy_condition: , proxy_url: http://localhost:3000
+2020-12-03 20:19:12 :: No ip in header, using remoteAddr
+2020-12-03 20:19:12 :: IP = '['
+                       	IP WITH PORT = '[::1]:46726'
+2020-12-03 20:19:12 :: lookup address http://ip-api.com/json/[
+2020-12-03 20:19:12 :: IP metadata: 
+                       	{"status":"fail","message":"invalid query","query":"["}
+2020-12-03 20:19:12 :: Request data:
+                       	User Agent: 'Mozilla/5.0 (X11; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0'
+                       	IP: '[::1]:46726'
+                       	Request URL: 'http://localhost:3000/sockjs-node'

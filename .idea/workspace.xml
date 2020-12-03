@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="830ba7be-8133-44cf-9e1e-d7795724869d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +37,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="C:\Go" />
+  <component name="GOROOT" path="/usr/lib/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -45,10 +65,72 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="vproxy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <package value="github.com/viddem/vproxy" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go run main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="vproxy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <envs>
+        <env name="PROXY_ADDRESS" value="http://localhost:3000" />
+      </envs>
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="github.com/viddem/vproxy" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="vproxy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="github.com/viddem/vproxy" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go run main.go" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -58,22 +140,53 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1073" y="359" key="#GOPATH/0.0.2560.1400/3840.0.1920.1080@0.0.2560.1400" timestamp="1606254619087" />
-    <state x="1073" y="632" key="#GOROOT" timestamp="1606254608748">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="803" y="445" key="#GOROOT" timestamp="1606912594605">
+      <screen x="0" y="0" width="1920" height="1048" />
     </state>
+    <state x="803" y="445" key="#GOROOT/0.0.1920.1048@0.0.1920.1048" timestamp="1606912594605" />
     <state x="1073" y="632" key="#GOROOT/0.0.2560.1400/3840.0.1920.1080@0.0.2560.1400" timestamp="1606254608748" />
+    <state x="294" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607004438508">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="294" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1048@0.0.1920.1048" timestamp="1607004438508" />
     <state x="935" y="359" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606254888802">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="701" y="269" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1048@0.0.1920.1048" timestamp="1606229915991" />
     <state x="935" y="359" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/3840.0.1920.1080@0.0.2560.1400" timestamp="1606254888802" />
-    <state x="1061" y="455" key="FileChooserDialogImpl" timestamp="1606254617793">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="637" y="458" key="EnvironmentVariablesDialog" timestamp="1606920424737">
+      <screen x="0" y="0" width="1920" height="1048" />
     </state>
+    <state x="637" y="458" key="EnvironmentVariablesDialog/0.0.1920.1048@0.0.1920.1048" timestamp="1606920424737" />
+    <state x="794" y="313" key="FileChooserDialogImpl" timestamp="1606918605095">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="794" y="313" key="FileChooserDialogImpl/0.0.1920.1048@0.0.1920.1048" timestamp="1606918605095" />
     <state x="1061" y="455" key="FileChooserDialogImpl/0.0.2560.1400/3840.0.1920.1080@0.0.2560.1400" timestamp="1606254617793" />
-    <state x="983" y="367" width="672" height="678" key="search.everywhere.popup" timestamp="1606271019020">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom" timestamp="1607023091808">
+      <screen x="0" y="0" width="1920" height="1048" />
     </state>
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1048@0.0.1920.1048" timestamp="1607023091808" />
+    <state width="1874" height="276" key="GridCell.Tab.0.center" timestamp="1607023091806">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state width="1874" height="276" key="GridCell.Tab.0.center/0.0.1920.1048@0.0.1920.1048" timestamp="1607023091806" />
+    <state width="1874" height="276" key="GridCell.Tab.0.left" timestamp="1607023091805">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state width="1874" height="276" key="GridCell.Tab.0.left/0.0.1920.1048@0.0.1920.1048" timestamp="1607023091805" />
+    <state width="1874" height="276" key="GridCell.Tab.0.right" timestamp="1607023091807">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state width="1874" height="276" key="GridCell.Tab.0.right/0.0.1920.1048@0.0.1920.1048" timestamp="1607023091807" />
+    <state x="455" y="102" key="SettingsEditor" timestamp="1606916120540">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="455" y="102" key="SettingsEditor/0.0.1920.1048@0.0.1920.1048" timestamp="1606916120540" />
+    <state x="737" y="275" width="672" height="508" key="search.everywhere.popup" timestamp="1607022838805">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="737" y="275" width="672" height="508" key="search.everywhere.popup/0.0.1920.1048@0.0.1920.1048" timestamp="1607022838805" />
     <state x="983" y="367" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/3840.0.1920.1080@0.0.2560.1400" timestamp="1606271019020" />
   </component>
 </project>
